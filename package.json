@@ -1,0 +1,19 @@
+{
+  "name": "drshoezclean",
+  "version": "1.0.0",
+  "description": "Aplikasi web berbasis PHP untuk manajemen laundry sepatu dengan fitur lengkap untuk customer walk-in dan admin panel.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
+    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+  }
+}

@@ -1,0 +1,41 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7B2C2C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#800000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="white" stroke="url(#logoGradient)" stroke-width="4"/>
+  
+  <!-- Shoe Icon -->
+  <g transform="translate(100, 100)">
+    <!-- Shoe Sole -->
+    <ellipse cx="0" cy="15" rx="45" ry="12" fill="#333" opacity="0.8"/>
+    
+    <!-- Shoe Body -->
+    <path d="M -40 10 Q -40 -20, -20 -30 L 20 -30 Q 40 -20, 40 10 L 40 15 L -40 15 Z" 
+          fill="url(#logoGradient)" stroke="#fff" stroke-width="2"/>
+    
+    <!-- Shoe Details -->
+    <line x1="-30" y1="-5" x2="30" y2="-5" stroke="white" stroke-width="2"/>
+    <line x1="-25" y1="5" x2="25" y2="5" stroke="white" stroke-width="1.5"/>
+    
+    <!-- Cleaning Sparkles -->
+    <g fill="#FFD700" opacity="0.9">
+      <circle cx="-50" cy="-20" r="3"/>
+      <circle cx="50" cy="-15" r="2.5"/>
+      <circle cx="-45" cy="25" r="2"/>
+      <circle cx="45" cy="30" r="3.5"/>
+      <circle cx="0" cy="-45" r="2.5"/>
+    </g>
+    
+    <!-- Shine Effect -->
+    <ellipse cx="-15" cy="-15" rx="8" ry="4" fill="white" opacity="0.6"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" 
+        text-anchor="middle" fill="url(#logoGradient)">DSC</text>
+</svg>

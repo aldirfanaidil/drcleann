@@ -1,0 +1,54 @@
+<?php
+require_once __DIR__ . '/core/init.php';
+
+// Test creating new user and login
+echo "=== TEST USER CREATION AND LOGIN ===\n";
+
+$database = new Database();
+$db = $database->getConnection();
+$user = new User($db);
+
+// Test data
+$testPassword = 'Test123456!';
+$testData = [
+    'username' => 'testuser123',
+    'password' => $testPassword,
+    'role' => 'kasir',
+    'full_name' => 'Test User',
+    'email' => 'test@example.com',
+    'phone' => '08123456789'
+];
+
+echo "Creating user with password: $testPassword\n";
+
+// Create user
+$userId = $user->create($testData);
+echo "User creation result: " . ($userId ? "SUCCESS (ID: $userId)" : "FAILED") . "\n";
+
+if ($userId) {
+    // Test login immediately
+    echo "Testing login with created user...\n";
+    $loginResult = $user->login($testData['username'], $testPassword);
+    echo "Login result: " . json_encode($loginResult) . "\n";
+    
+    // Get stored hash
+    $query = "SELECT password_hash FROM users WHERE username = ?";
+    $stmt = $db->prepare($query);
+    $stmt->execute([$testData['username']]);
+    $row = $stmt->fetch(PDO::FETCH_ASSOC);
+    
+    if ($row) {
+        echo "Stored hash: " . $row['password_hash'] . "\n";
+        echo "Password verify test: " . (password_verify($testPassword, $row['password_hash']) ? 'SUCCESS' : 'FAILED') . "\n";
+        echo "Security::verifyPassword test: " . (Security::verifyPassword($testPassword, $row['password_hash']) ? 'SUCCESS' : 'FAILED') . "\n";
+    }
+}
+
+// Clean up test user
+if ($userId) {
+    $query = "DELETE FROM users WHERE username = ?";
+    $stmt = $db->prepare($query);
+    $stmt->execute([$testData['username']]);
+    echo "Test user cleaned up\n";
+}
+?>

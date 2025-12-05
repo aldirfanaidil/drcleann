@@ -1,0 +1,1365 @@
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/cuset/core/init.php on line 2
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/debug.php:6) in /var/www/html/cuset/core/Security.php on line 97
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/debug.php:6) in /var/www/html/cuset/core/Security.php on line 98
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/debug.php:6) in /var/www/html/cuset/core/Security.php on line 99
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/debug.php:6) in /var/www/html/cuset/core/Security.php on line 100
+[17-Nov-2025 16:24:01 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/debug.php:6) in /var/www/html/cuset/core/Security.php on line 101
+[17-Nov-2025 16:25:01 Asia/Jakarta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/cuset/core/init.php on line 9
+[17-Nov-2025 16:25:11 Asia/Jakarta] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/cuset/core/init.php on line 4
+[17-Nov-2025 16:27:05 Asia/Jakarta] PHP Warning:  Undefined array key "REQUEST_METHOD" in /var/www/html/cuset/login.php on line 10
+[17-Nov-2025 16:31:45 Asia/Jakarta] PHP Warning:  Undefined array key "REMOTE_ADDR" in /var/www/html/cuset/models/User.php on line 12
+[17-Nov-2025 16:31:45 Asia/Jakarta] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/cuset/core/Security.php on line 72
+[17-Nov-2025 16:31:45 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip_address' cannot be null in /var/www/html/cuset/models/User.php:58
+Stack trace:
+#0 /var/www/html/cuset/models/User.php(58): PDOStatement->execute()
+#1 /var/www/html/cuset/models/User.php(28): User->logLoginAttempt()
+#2 /var/www/html/cuset/test_login.php(12): User->login()
+#3 {main}
+  thrown in /var/www/html/cuset/models/User.php on line 58
+[17-Nov-2025 16:33:58 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_post_login.php:10) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 16:34:14 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_post_login.php:10) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 17:16:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to private method OrderController::updateOrder() from global scope in /var/www/html/cuset/test_order_update.php:34
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/cuset/test_order_update.php on line 34
+[17-Nov-2025 17:16:13 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_order_update.php:30) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 17:16:17 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_order_update.php:30) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 17:16:40 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_order_update.php:30) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 17:17:15 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Cannot access private property OrderController::$order in /var/www/html/cuset/test_order_update.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/cuset/test_order_update.php on line 15
+[17-Nov-2025 17:17:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_order_update.php:21) in /var/www/html/cuset/core/init.php on line 82
+[17-Nov-2025 17:17:31 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/cuset/test_order_update.php:21) in /var/www/html/cuset/core/init.php on line 82
+[18-Nov-2025 16:06:05 Asia/Jakarta] PHP Warning:  Undefined array key "REQUEST_URI" in /var/www/html/al/debug_url_config.php on line 5
+[18-Nov-2025 16:06:05 Asia/Jakarta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/al/debug_url_config.php on line 7
+[18-Nov-2025 16:06:05 Asia/Jakarta] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/al/debug_url_config.php on line 24
+[19-Nov-2025 13:17:54 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:17:55 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:17:55 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:17:55 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:22:41 Asia/Jakarta] ADMIN INDEX - Session ID: ai265rtbjv19pmaj35lfdait3v
+[19-Nov-2025 13:22:41 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:22:41 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:22:41 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:23:30 Asia/Jakarta] CSRF Validation - Session token: e90d8721... Provided token: e90d8721...
+[19-Nov-2025 13:23:30 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 13:23:38 Asia/Jakarta] ADMIN INDEX - Session ID: ai265rtbjv19pmaj35lfdait3v
+[19-Nov-2025 13:23:38 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:23:38 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:23:38 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:24:44 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:24:44 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:24:44 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:24:44 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:37:44 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:37:44 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:37:44 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:37:44 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:39:46 Asia/Jakarta] ADMIN INDEX - Session ID: uqmlqtpmqpf20r1ok9slvolopd
+[19-Nov-2025 13:39:46 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:39:46 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:39:46 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:43:39 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:43:39 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:43:39 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:43:39 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:48:05 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:48:05 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 13:48:05 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 13:48:05 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 13:50:24 Asia/Jakarta] CSRF Validation - Session token: bc80f600... Provided token: bc80f600...
+[19-Nov-2025 13:50:24 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 13:50:24 Asia/Jakarta] LOGIN SUCCESS - User: aldi Role: superuser
+[19-Nov-2025 13:50:24 Asia/Jakarta] Session data: {"csrf_token":"bc80f600a1635a03d8c31c4ee969df16c6827e46037bfcff48f25ac964e322ec","rate_limit_837ec5754f503cfaaee0929fd48974e7":{"attempts":1,"first_attempt":1763535024},"user_id":1,"username":"aldi","user_role":"superuser","full_name":"Aldi","email":"aldi@drshoezclean.com"}
+[19-Nov-2025 13:50:24 Asia/Jakarta] Redirecting admin/superuser to: admin/index.php?page=dashboard
+[19-Nov-2025 13:50:25 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:25 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:28 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:28 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:29 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:29 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:51 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 13:50:53 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 13:50:53 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 13:50:53 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:43:27 Asia/Jakarta] ADMIN INDEX - Session ID: t45b17knjvmr40fse4cm01fo02
+[19-Nov-2025 16:43:27 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:43:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:43:29 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:43:29 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[19-Nov-2025 16:43:29 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[19-Nov-2025 16:43:29 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[19-Nov-2025 16:43:38 Asia/Jakarta] CSRF Validation - Session token: 5e6efb46... Provided token: 5e6efb46...
+[19-Nov-2025 16:43:38 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:43:38 Asia/Jakarta] LOGIN FAILED - User: admin Reason: Invalid username or password
+[19-Nov-2025 16:43:45 Asia/Jakarta] CSRF Validation - Session token: 5e6efb46... Provided token: 5e6efb46...
+[19-Nov-2025 16:43:45 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:43:45 Asia/Jakarta] LOGIN FAILED - User: admin Reason: Invalid username or password
+[19-Nov-2025 16:43:55 Asia/Jakarta] CSRF Validation - Session token: 5e6efb46... Provided token: 5e6efb46...
+[19-Nov-2025 16:43:55 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:43:55 Asia/Jakarta] LOGIN SUCCESS - User: aldi Role: superuser
+[19-Nov-2025 16:43:55 Asia/Jakarta] Session data: {"csrf_token":"5e6efb4693a69d69617ce0136d162f4b8450208eb26ccc5bb1d9fbffd676a1ec","rate_limit_837ec5754f503cfaaee0929fd48974e7":{"attempts":3,"first_attempt":1763545418},"user_id":1,"username":"aldi","user_role":"superuser","full_name":"Aldi","email":"aldi@drshoezclean.com"}
+[19-Nov-2025 16:43:55 Asia/Jakarta] Redirecting admin/superuser to: admin/index.php?page=dashboard
+[19-Nov-2025 16:43:55 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:43:55 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:43:55 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:43:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:43:59 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:43:59 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:43:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:44:09 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:44:09 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:44:09 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:44:24 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:44:24 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:44:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:44:29 Asia/Jakarta] CSRF Validation - Session token: 5e6efb46... Provided token: 5e6efb46...
+[19-Nov-2025 16:44:29 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - Session ID: hr6d2iamfl42jh055mcc4b6tu4
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 16:44:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 16:45:18 Asia/Jakarta] CSRF Validation - Session token: ae1f38b1... Provided token: ae1f38b1...
+[19-Nov-2025 16:45:18 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:45:19 Asia/Jakarta] LOGIN FAILED - User: topik Reason: Invalid username or password
+[19-Nov-2025 16:45:32 Asia/Jakarta] CSRF Validation - Session token: ae1f38b1... Provided token: ae1f38b1...
+[19-Nov-2025 16:45:32 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:45:32 Asia/Jakarta] LOGIN SUCCESS - User: topik Role: kasir
+[19-Nov-2025 16:45:32 Asia/Jakarta] Session data: {"csrf_token":"ae1f38b14812ef825a8acfe917294cb3a6f10d74e6b422ae0817e3014661f92b","rate_limit_837ec5754f503cfaaee0929fd48974e7":{"attempts":2,"first_attempt":1763545518},"user_id":12,"username":"topik","user_role":"kasir","full_name":"Topik Kon","email":"toppp@gmail.com"}
+[19-Nov-2025 16:45:32 Asia/Jakarta] Redirecting kasir to: admin/index.php?page=orders
+[19-Nov-2025 16:45:32 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:32 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:32 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:38 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:45:39 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:39 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:39 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:45:41 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:41 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:41 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:45:55 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:45:55 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:45:55 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:00 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:00 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:00 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:18 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:18 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:18 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:18 Asia/Jakarta] CSRF Validation - Session token: ae1f38b1... Provided token: ae1f38b1...
+[19-Nov-2025 16:46:18 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 16:46:22 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:22 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:22 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:27 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:27 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:27 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:35 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:47 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:47 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:47 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:49 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:49 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:49 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:56 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:56 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:56 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:57 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:57 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:57 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:46:58 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:46:58 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:46:58 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:00 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:00 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:00 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:05 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:06 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:06 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:06 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:11 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:11 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:11 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:12 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:12 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:12 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:13 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:13 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:13 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:14 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:14 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:14 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:17 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:18 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:18 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:18 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:47:30 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:47:30 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:47:30 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:58:20 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:58:20 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:58:20 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:58:27 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:58:27 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:58:27 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:58:30 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:58:30 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:58:30 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 16:58:46 Asia/Jakarta] ADMIN INDEX - Session ID: u43ltsbkopnjskc5247nmbjqsh
+[19-Nov-2025 16:58:46 Asia/Jakarta] ADMIN INDEX - User ID: 12
+[19-Nov-2025 16:58:46 Asia/Jakarta] ADMIN INDEX - User Role: kasir
+[19-Nov-2025 17:00:57 Asia/Jakarta] CSRF Validation - Session token: d6c8cad0... Provided token: d6c8cad0...
+[19-Nov-2025 17:00:57 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 17:00:57 Asia/Jakarta] LOGIN SUCCESS - User: aldi Role: superuser
+[19-Nov-2025 17:00:57 Asia/Jakarta] Session data: {"csrf_token":"d6c8cad0abac97e59303b3856cb0482fd59108ff7be2e01dd16114ff5f52ee3d","rate_limit_837ec5754f503cfaaee0929fd48974e7":{"attempts":1,"first_attempt":1763546457},"user_id":1,"username":"aldi","user_role":"superuser","full_name":"Aldi","email":"aldi@drshoezclean.com"}
+[19-Nov-2025 17:00:57 Asia/Jakarta] Redirecting admin/superuser to: admin/index.php?page=dashboard
+[19-Nov-2025 17:00:57 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:00:57 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:00:57 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:00:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:13 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:13 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:13 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:15 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:15 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:15 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:23 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:23 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:39 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:39 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:39 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:42 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:42 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:42 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:01:43 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:01:43 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:01:43 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:02:30 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:02:30 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:02:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:03:00 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:03:00 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:03:00 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:03:30 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:03:30 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:03:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:04:00 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:04:00 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:04:00 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:04:23 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:04:23 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:04:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:04:25 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:04:25 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:04:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:07:02 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:07:02 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:07:02 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:37:48 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:37:48 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:37:48 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:37:50 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:37:50 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:37:50 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:37:52 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:37:52 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:37:52 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:50:39 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:50:39 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:50:39 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:51:10 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:51:10 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:51:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:51:40 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:51:40 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:51:40 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:52:10 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:52:10 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:52:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:52:13 Asia/Jakarta] CSRF Validation - Session token: c8577937... Provided token: c8577937...
+[19-Nov-2025 17:52:13 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 17:52:27 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:52:27 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:52:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:52:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:52:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:52:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:53:28 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:53:28 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:53:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:53:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:53:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:53:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:54:28 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:54:28 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:54:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:54:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:54:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:54:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:55:28 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:55:28 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:55:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:55:58 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:55:58 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:55:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:28 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:28 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:38 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:38 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:38 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:44 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:44 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:44 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:49 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:49 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:54 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:54 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:57 Asia/Jakarta] CSRF Validation - Session token: c8577937... Provided token: c8577937...
+[19-Nov-2025 17:56:57 Asia/Jakarta] CSRF Validation result: SUCCESS
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:56:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:04 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:04 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:04 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:09 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:09 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:09 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:14 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:14 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:14 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:19 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:19 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:19 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:24 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:24 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:29 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:29 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:34 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:34 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:34 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:39 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:39 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:39 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:44 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:44 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:44 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:49 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:49 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:54 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:54 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:57:59 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:57:59 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:57:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:58:04 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:58:04 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:58:04 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:58:09 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:58:09 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:58:09 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:58:47 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:58:47 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:58:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 17:59:47 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 17:59:47 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 17:59:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 18:00:47 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 18:00:47 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 18:00:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 18:01:47 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 18:01:47 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 18:01:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 18:02:47 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 18:02:47 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 18:02:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 20:38:10 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 20:38:10 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 20:38:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[19-Nov-2025 20:38:12 Asia/Jakarta] ADMIN INDEX - Session ID: g3ihjse4gsej50ar3jpnqc3lcs
+[19-Nov-2025 20:38:12 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[19-Nov-2025 20:38:12 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:52:55 Asia/Jakarta] CSRF Validation - Session token: df767a77... Provided token: df767a77...
+[30-Nov-2025 07:52:55 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 07:53:14 Asia/Jakarta] CSRF Validation - Session token: df767a77... Provided token: df767a77...
+[30-Nov-2025 07:53:14 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 07:53:15 Asia/Jakarta] LOGIN SUCCESS - User: risma Role: superuser
+[30-Nov-2025 07:53:15 Asia/Jakarta] Session data: {"csrf_token":"df767a775ede3ffa5c7daf53548499cea3b72e89ec977af1b89f27beb4b5215d","rate_limit_837ec5754f503cfaaee0929fd48974e7":{"attempts":1,"first_attempt":1764463994},"user_id":2,"username":"risma","user_role":"superuser","full_name":"Risma","email":"risma@drshoezclean.com"}
+[30-Nov-2025 07:53:15 Asia/Jakarta] Redirecting admin/superuser to: admin/index.php?page=dashboard
+[30-Nov-2025 07:53:15 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:15 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:15 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:21 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:21 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:21 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:22 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:22 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:22 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:23 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:23 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:31 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:33 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:33 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:33 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:34 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:34 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:34 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:35 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:41 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:46 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:46 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:46 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:47 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:47 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:53:53 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:53:53 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:53:53 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:27 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:27 Asia/Jakarta] CSRF Validation - Session token: df767a77... Provided token: df767a77...
+[30-Nov-2025 07:54:27 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 07:54:32 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:32 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:32 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:35 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:39 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:39 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:39 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:57 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:57 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:57 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:54:57 Asia/Jakarta] CSRF Validation - Session token: df767a77... Provided token: df767a77...
+[30-Nov-2025 07:54:57 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 07:54:59 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:54:59 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:54:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:57:33 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:57:33 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:57:33 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:57:48 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:57:48 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:57:48 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:57:57 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:57:57 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:57:57 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:58:50 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:58:50 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:58:50 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:58:54 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:58:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:58:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:58:56 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:58:56 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:58:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 07:59:42 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 07:59:42 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 07:59:42 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:27 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:28 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:29 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:29 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:30 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:01:49 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:01:49 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:01:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:02:20 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:02:20 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:02:20 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:02:49 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:02:49 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:02:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:03:22 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:03:22 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:03:22 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:03:49 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:03:49 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:03:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:04:19 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:04:19 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:04:19 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:04:54 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:04:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:04:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:05:20 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:05:20 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:05:20 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:06:16 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:06:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:06:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:06:18 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:06:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:06:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 08:06:22 Asia/Jakarta] ADMIN INDEX - Session ID: 3b27lhmo0jfk2rhe14p8knjscn
+[30-Nov-2025 08:06:22 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 08:06:22 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:30:10 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:30:10 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:30:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:30:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:30:41 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:30:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:30:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:31:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:31:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:31:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:31:41 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:31:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:31:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:32:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:32:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:32:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:32:41 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:32:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:32:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:33:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:33:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:33:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:33:41 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:33:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:33:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:11 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:22 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:22 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:22 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:27 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:28 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:31 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:32 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:32 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:32 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:34:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:34:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:34:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:35:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:35:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:35:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:35:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:35:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:35:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:36:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:36:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:36:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:36:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:36:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:36:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:37:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:37:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:37:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:37:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:37:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:37:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:38:27 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:38:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:38:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:38:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:38:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:38:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:39:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:39:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:39:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:39:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:39:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:39:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:40:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:40:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:40:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:40:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:40:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:40:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:41:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:41:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:41:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:41:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:41:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:41:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:42:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:42:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:42:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:42:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:42:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:42:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:43:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:43:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:43:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:43:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:43:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:43:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:44:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:44:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:44:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:44:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:44:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:44:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:45:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:45:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:45:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:45:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:45:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:45:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:46:24 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:46:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:46:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:46:54 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:46:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:46:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:03 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:03 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:03 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:04 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:21 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:21 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:21 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_amount' in 'SELECT' in /var/www/html/all/controllers/CashFlowController.php:41
+Stack trace:
+#0 /var/www/html/all/controllers/CashFlowController.php(41): PDO->prepare()
+#1 /var/www/html/all/controllers/CashFlowController.php(23): CashFlowController->getCashFlowData()
+#2 /var/www/html/all/admin/index.php(97): CashFlowController->index()
+#3 {main}
+  thrown in /var/www/html/all/controllers/CashFlowController.php on line 41
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:47:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:48:01 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:48:01 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:48:01 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:48:31 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:48:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:48:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:49:01 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:49:01 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:49:01 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:49:21 Asia/Jakarta] ADMIN INDEX - Session ID: 5b0e285abfcaf8234bb1393306d33c61
+[30-Nov-2025 09:49:21 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 09:49:21 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 09:49:21 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_amount' in 'SELECT' in /var/www/html/all/controllers/CashFlowController.php:41
+Stack trace:
+#0 /var/www/html/all/controllers/CashFlowController.php(41): PDO->prepare()
+#1 /var/www/html/all/controllers/CashFlowController.php(23): CashFlowController->getCashFlowData()
+#2 /var/www/html/all/admin/index.php(97): CashFlowController->index()
+#3 {main}
+  thrown in /var/www/html/all/controllers/CashFlowController.php on line 41
+[30-Nov-2025 10:34:50 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:34:50 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[30-Nov-2025 10:34:50 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[30-Nov-2025 10:34:50 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:35:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:35:26 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:42:52 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:42:54 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:42:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:42:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:42:55 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:42:55 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:42:55 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:54:13 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 10:54:13 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 10:54:13 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 10:54:13 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'drshoezclean_db.expenses' doesn't exist in /var/www/html/all/controllers/CashFlowController.php:149
+Stack trace:
+#0 /var/www/html/all/controllers/CashFlowController.php(149): PDO->prepare()
+#1 /var/www/html/all/controllers/CashFlowController.php(37): CashFlowController->getExpenseData()
+#2 /var/www/html/all/controllers/CashFlowController.php(26): CashFlowController->getCashFlowData()
+#3 /var/www/html/all/admin/index.php(97): CashFlowController->index()
+#4 {main}
+  thrown in /var/www/html/all/controllers/CashFlowController.php on line 149
+[30-Nov-2025 11:20:01 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:01 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:01 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:20:11 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:20:17 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:17 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:20:30 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:20:31 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:20:32 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:20:32 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:20:32 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:23:18 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:23:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:23:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:23:25 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:23:25 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:23:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:23:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:23:44 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:23:44 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:23:44 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:24:18 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:24:27 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:24:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:24:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:24:28 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:24:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:24:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:25:10 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:25:10 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:25:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:25:11 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:25:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:25:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:25:16 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:25:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:25:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:27:08 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:27:08 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:27:08 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:27:09 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:27:09 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:27:09 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:31:42 Asia/Jakarta] ADMIN INDEX - Session ID: 3deafe9929654d81c0161735edd72d09
+[30-Nov-2025 11:31:42 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[30-Nov-2025 11:31:42 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[30-Nov-2025 11:31:42 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[30-Nov-2025 11:32:38 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:32:38 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:32:38 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:33:29 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:33:29 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:33:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:11 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:15 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:15 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:15 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:31 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:37 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:40 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:42 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:34:47 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:34:47 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:34:47 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:35:14 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:01 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:01 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:01 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:09 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:09 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:09 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:19 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:19 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:19 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:23 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:23 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:29 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:29 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:29 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:34 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:34 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:34 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:39 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:39 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:39 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:43 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:43 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:43 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:45 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:45 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:45 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:48 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:48 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:48 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:49 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:49 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:49 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:50 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:50 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:50 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:51 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:51 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:51 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:53 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:53 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:53 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:56 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:56 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:36:58 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:36:58 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:36:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:05 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:05 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:05 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:10 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:10 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:11 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:11 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:11 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:12 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:12 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:12 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:17 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:17 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:20 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:20 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:20 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:37:53 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:37:53 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:37:53 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:04 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:04 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:04 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:07 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:07 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:07 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:13 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:13 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:13 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:17 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:17 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:25 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:25 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:38:28 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:38:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:38:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:44:23 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:44:23 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:44:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:44:54 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:44:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:44:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:45:28 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:45:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:45:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:45:46 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 11:45:46 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:45:50 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:45:50 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:45:50 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:45:53 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:45:53 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:45:53 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:45:56 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:45:56 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:45:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:46:16 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:46:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:46:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:46:16 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 11:46:16 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:46:16 Asia/Jakarta] Order update error: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'payment_method' at row 1
+[30-Nov-2025 11:46:23 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:46:23 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:46:23 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:46:23 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 11:46:23 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:46:23 Asia/Jakarta] Order update error: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'payment_method' at row 1
+[30-Nov-2025 11:46:45 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:46:45 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:46:45 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:50:26 Asia/Jakarta] ADMIN INDEX - Session ID: 4a282e9413545a70097fe093a4ff793d
+[30-Nov-2025 11:50:26 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[30-Nov-2025 11:50:26 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[30-Nov-2025 11:50:26 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[30-Nov-2025 11:52:10 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/all/test_order_update.php:16) in /var/www/html/all/controllers/OrderController.php on line 121
+[30-Nov-2025 11:52:10 Asia/Jakarta] CSRF Validation - Session token: d6c2adda... Provided token: d6c2adda...
+[30-Nov-2025 11:52:10 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:52:10 Asia/Jakarta] === ORDER UPDATE DEBUG ===
+[30-Nov-2025 11:52:10 Asia/Jakarta] Order ID: 1
+[30-Nov-2025 11:52:10 Asia/Jakarta] Data: {"customer_name":"Test Customer Updated","phone":"08123456789","payment_status":"pending","payment_method":"cash","notes":"Test notes","items":[{"brand":"Nike","service_code":"deep_clean_express","service_name":"Unknown Service","service_price":50000},{"brand":"Adidas","service_code":"fast_clean_express","service_name":"Unknown Service","service_price":40000}],"subtotal":90000,"total":90000,"date_out":null,"status":"processing","date_estimate_out":null}
+[30-Nov-2025 11:52:10 Asia/Jakarta] Total pairs: 2
+[30-Nov-2025 11:52:10 Asia/Jakarta] Executing update query...
+[30-Nov-2025 11:52:10 Asia/Jakarta] Update query successful. Updating items...
+[30-Nov-2025 11:52:10 Asia/Jakarta] Updating order items for order ID: 1
+[30-Nov-2025 11:52:10 Asia/Jakarta] Items count: 2
+[30-Nov-2025 11:52:10 Asia/Jakarta] Deleted existing items
+[30-Nov-2025 11:52:10 Asia/Jakarta] Inserting item 1: {"brand":"Nike","service_code":"deep_clean_express","service_name":"Unknown Service","service_price":50000}
+[30-Nov-2025 11:52:10 Asia/Jakarta] Error updating order items: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drshoezclean_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE)
+[30-Nov-2025 11:52:10 Asia/Jakarta] Order update error: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`drshoezclean_db`.`order_items`, CONSTRAINT `order_items_ibfk_1` FOREIGN KEY (`order_id`) REFERENCES `orders` (`id`) ON DELETE CASCADE)
+[30-Nov-2025 11:52:10 Asia/Jakarta] Stack trace: #0 /var/www/html/all/models/Order.php(83): PDOStatement->execute()
+#1 /var/www/html/all/models/Order.php(228): Order->insertOrderItem()
+#2 /var/www/html/all/models/Order.php(181): Order->updateOrderItems()
+#3 /var/www/html/all/controllers/OrderController.php(187): Order->update()
+#4 /var/www/html/all/test_order_update.php(59): OrderController->updateOrder()
+#5 {main}
+[30-Nov-2025 11:52:26 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/all/test_order_update.php:16) in /var/www/html/all/controllers/OrderController.php on line 121
+[30-Nov-2025 11:52:26 Asia/Jakarta] CSRF Validation - Session token: 7ac1d2b8... Provided token: 7ac1d2b8...
+[30-Nov-2025 11:52:26 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:52:26 Asia/Jakarta] === ORDER UPDATE DEBUG ===
+[30-Nov-2025 11:52:26 Asia/Jakarta] Order ID: 10
+[30-Nov-2025 11:52:26 Asia/Jakarta] Data: {"customer_name":"Test Customer Updated","phone":"08123456789","payment_status":"pending","payment_method":"cash","notes":"Test notes","items":[{"brand":"Nike","service_code":"deep_clean_express","service_name":"Unknown Service","service_price":50000},{"brand":"Adidas","service_code":"fast_clean_express","service_name":"Unknown Service","service_price":40000}],"subtotal":90000,"total":90000,"date_out":null,"status":"processing","date_estimate_out":null}
+[30-Nov-2025 11:52:26 Asia/Jakarta] Total pairs: 2
+[30-Nov-2025 11:52:26 Asia/Jakarta] Executing update query...
+[30-Nov-2025 11:52:26 Asia/Jakarta] Update query successful. Updating items...
+[30-Nov-2025 11:52:26 Asia/Jakarta] Updating order items for order ID: 10
+[30-Nov-2025 11:52:26 Asia/Jakarta] Items count: 2
+[30-Nov-2025 11:52:26 Asia/Jakarta] Deleted existing items
+[30-Nov-2025 11:52:26 Asia/Jakarta] Inserting item 1: {"brand":"Nike","service_code":"deep_clean_express","service_name":"Unknown Service","service_price":50000}
+[30-Nov-2025 11:52:26 Asia/Jakarta] Inserting item 2: {"brand":"Adidas","service_code":"fast_clean_express","service_name":"Unknown Service","service_price":40000}
+[30-Nov-2025 11:52:26 Asia/Jakarta] All items inserted successfully
+[30-Nov-2025 11:52:26 Asia/Jakarta] Transaction committed successfully
+[30-Nov-2025 11:55:28 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:55:28 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:55:28 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:55:28 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 11:55:28 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:55:28 Asia/Jakarta] Order update error: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'payment_method' at row 1
+[30-Nov-2025 11:55:35 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 11:55:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 11:55:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 11:55:35 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 11:55:35 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 11:55:35 Asia/Jakarta] Order update error: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'payment_method' at row 1
+[30-Nov-2025 12:01:14 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:01:14 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:01:14 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:01:14 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 12:01:14 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 12:01:17 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:01:17 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:01:17 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:01:33 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:01:33 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:01:33 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:01:41 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:01:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:01:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:05:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:05:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:05:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:05:27 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:05:27 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:05:27 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:05:30 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:05:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:05:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:06:59 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:06:59 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:06:59 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:02 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:02 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:02 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:08 Asia/Jakarta] === DELETE REQUEST DEBUG ===
+[30-Nov-2025 12:07:08 Asia/Jakarta] POST data: {"id":"11","csrf_token":"c6ee19db3b38db682bd7b8b1b083d9623a0244fafa0c5dcb78c527702ac5fe44"}
+[30-Nov-2025 12:07:08 Asia/Jakarta] Session data: {"csrf_token":"c6ee19db3b38db682bd7b8b1b083d9623a0244fafa0c5dcb78c527702ac5fe44","rate_limit_304c29789571883b22f7819d82f81462":{"attempts":1,"first_attempt":1764473702},"user_id":2,"username":"risma","user_role":"superuser","full_name":"Risma","email":"risma@drshoezclean.com"}
+[30-Nov-2025 12:07:08 Asia/Jakarta] Request method: POST
+[30-Nov-2025 12:07:08 Asia/Jakarta] Request URI: /all/admin/index.php?page=order_delete
+[30-Nov-2025 12:07:08 Asia/Jakarta] Order ID to delete: 11
+[30-Nov-2025 12:07:08 Asia/Jakarta] CSRF token provided: c6ee19db...
+[30-Nov-2025 12:07:08 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 12:07:08 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 12:07:08 Asia/Jakarta] Attempting to delete order...
+[30-Nov-2025 12:07:08 Asia/Jakarta] Delete result: {"success":true}
+[30-Nov-2025 12:07:08 Asia/Jakarta] === END DELETE DEBUG ===
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:08 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:10 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:10 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:10 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:14 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:14 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:14 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:14 Asia/Jakarta] === DELETE REQUEST DEBUG ===
+[30-Nov-2025 12:07:14 Asia/Jakarta] POST data: {"id":"10","csrf_token":"c6ee19db3b38db682bd7b8b1b083d9623a0244fafa0c5dcb78c527702ac5fe44"}
+[30-Nov-2025 12:07:14 Asia/Jakarta] Session data: {"csrf_token":"c6ee19db3b38db682bd7b8b1b083d9623a0244fafa0c5dcb78c527702ac5fe44","rate_limit_304c29789571883b22f7819d82f81462":{"attempts":1,"first_attempt":1764473702},"user_id":2,"username":"risma","user_role":"superuser","full_name":"Risma","email":"risma@drshoezclean.com"}
+[30-Nov-2025 12:07:14 Asia/Jakarta] Request method: POST
+[30-Nov-2025 12:07:14 Asia/Jakarta] Request URI: /all/admin/index.php?page=order_delete
+[30-Nov-2025 12:07:14 Asia/Jakarta] Order ID to delete: 10
+[30-Nov-2025 12:07:14 Asia/Jakarta] CSRF token provided: c6ee19db...
+[30-Nov-2025 12:07:14 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 12:07:14 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 12:07:14 Asia/Jakarta] Attempting to delete order...
+[30-Nov-2025 12:07:14 Asia/Jakarta] Delete result: {"success":true}
+[30-Nov-2025 12:07:14 Asia/Jakarta] === END DELETE DEBUG ===
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:15 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:20 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:20 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:20 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:25 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:25 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:25 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:30 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:30 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:30 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:33 Asia/Jakarta] CSRF Validation - Session token: c6ee19db... Provided token: c6ee19db...
+[30-Nov-2025 12:07:33 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:35 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:38 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:38 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:38 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 12:07:41 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 12:07:41 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 12:07:41 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:33:30 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:33:30 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[30-Nov-2025 14:33:30 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[30-Nov-2025 14:33:30 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[30-Nov-2025 14:34:34 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:34:34 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:34:34 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:35:52 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:35:52 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:35:52 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:35:57 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:35:57 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:35:57 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:35:58 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:35:58 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:35:58 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:03 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:03 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:03 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:24 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:24 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:24 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:24 Asia/Jakarta] CSRF Validation - Session token: b573e77a... Provided token: b573e77a...
+[30-Nov-2025 14:36:24 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 14:36:26 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:26 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:26 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:32 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:36 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:36 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:36 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:54 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:54 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:54 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:36:54 Asia/Jakarta] CSRF Validation - Session token: b573e77a... Provided token: b573e77a...
+[30-Nov-2025 14:36:54 Asia/Jakarta] CSRF Validation result: SUCCESS
+[30-Nov-2025 14:36:56 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:36:56 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:36:56 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:37:02 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:37:02 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:37:02 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:37:03 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:37:03 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:37:03 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:37:06 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:37:06 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:37:06 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:37:16 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:37:16 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:37:16 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[30-Nov-2025 14:37:21 Asia/Jakarta] ADMIN INDEX - Session ID: e94530b07d86c754d2f28c4efe057b4b
+[30-Nov-2025 14:37:21 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[30-Nov-2025 14:37:21 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[03-Dec-2025 11:04:00 Asia/Jakarta] ADMIN INDEX - Session ID: ef31433a636501c2125398d61ea499ff
+[03-Dec-2025 11:04:00 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[03-Dec-2025 11:04:00 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[03-Dec-2025 11:04:00 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[03-Dec-2025 11:40:29 Asia/Jakarta] ADMIN INDEX - Session ID: 5a88c707a16b9ef7f3454135ef245190
+[03-Dec-2025 11:40:29 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[03-Dec-2025 11:40:29 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[03-Dec-2025 11:40:29 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[03-Dec-2025 11:41:37 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_direct.php:20) in /var/www/html/drshoezclean/core/init.php on line 92
+[04-Dec-2025 11:00:46 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_simple_detail.php:17) in /var/www/html/drshoezclean/controllers/DashboardController.php on line 166
+[04-Dec-2025 11:02:50 Asia/Jakarta] ADMIN INDEX - Session ID: 009bfaeb049c5e2c8899b360f6167772
+[04-Dec-2025 11:02:50 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[04-Dec-2025 11:02:50 Asia/Jakarta] ADMIN INDEX - User Role: admin
+[04-Dec-2025 11:03:13 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_direct.php:15) in /var/www/html/drshoezclean/controllers/DashboardController.php on line 184
+[04-Dec-2025 11:05:08 Asia/Jakarta] ADMIN INDEX - Session ID: b50737e0f52701ea6701a33008cd6c96
+[04-Dec-2025 11:05:08 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[04-Dec-2025 11:05:08 Asia/Jakarta] ADMIN INDEX - User Role: admin
+[04-Dec-2025 11:05:08 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_final.php:17) in /var/www/html/drshoezclean/controllers/DashboardController.php on line 184
+[04-Dec-2025 11:11:11 Asia/Jakarta] ADMIN INDEX - Session ID: 61b9ba13e32a2b0195c025a67eeb6c79
+[04-Dec-2025 11:11:11 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[04-Dec-2025 11:11:11 Asia/Jakarta] ADMIN INDEX - User Role: admin
+[04-Dec-2025 11:11:11 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_admin_access.php:17) in /var/www/html/drshoezclean/controllers/DashboardController.php on line 184
+[04-Dec-2025 11:13:00 Asia/Jakarta] ADMIN INDEX - Session ID: 05be11deab62cc6215b2a670eb7a7fa2
+[04-Dec-2025 11:13:00 Asia/Jakarta] ADMIN INDEX - User ID: 1
+[04-Dec-2025 11:13:00 Asia/Jakarta] ADMIN INDEX - User Role: admin
+[04-Dec-2025 11:13:00 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/drshoezclean/test_browser_sim.php:20) in /var/www/html/drshoezclean/controllers/DashboardController.php on line 184
+[04-Dec-2025 15:27:34 Asia/Jakarta] Dashboard KPI Data - Today: {"orders_today":8,"shoes_today":"11","revenue_today":"368000","paid_today":"331000","unpaid_today":"37000","unpaid_orders_today":1}
+[04-Dec-2025 15:27:34 Asia/Jakarta] Dashboard KPI Data - Weekly: {"orders_week":25,"shoes_week":"35","revenue_week":"1218000","paid_week":"1104000","unpaid_week":"114000","unpaid_orders_week":4}
+[04-Dec-2025 15:27:34 Asia/Jakarta] Dashboard KPI Data - Monthly: {"orders_month":23,"shoes_month":"32","revenue_month":"1112000","paid_month":"998000","unpaid_month":"114000","unpaid_orders_month":4}
+[04-Dec-2025 15:27:34 Asia/Jakarta] Dashboard KPI Data - Yearly: {"orders_year":25,"shoes_year":"35","revenue_year":"1218000","paid_year":"1104000","unpaid_year":"114000","unpaid_orders_year":4}
+[04-Dec-2025 15:27:57 Asia/Jakarta] Dashboard KPI Data - Today: {"orders_today":8,"shoes_today":"11","revenue_today":"368000","paid_today":"331000","unpaid_today":"37000","unpaid_orders_today":1}
+[04-Dec-2025 15:27:57 Asia/Jakarta] Dashboard KPI Data - Weekly: {"orders_week":25,"shoes_week":"35","revenue_week":"1218000","paid_week":"1104000","unpaid_week":"114000","unpaid_orders_week":4}
+[04-Dec-2025 15:27:57 Asia/Jakarta] Dashboard KPI Data - Monthly: {"orders_month":23,"shoes_month":"32","revenue_month":"1112000","paid_month":"998000","unpaid_month":"114000","unpaid_orders_month":4}
+[04-Dec-2025 15:27:57 Asia/Jakarta] Dashboard KPI Data - Yearly: {"orders_year":25,"shoes_year":"35","revenue_year":"1218000","paid_year":"1104000","unpaid_year":"114000","unpaid_orders_year":4}
+[05-Dec-2025 06:54:21 Asia/Jakarta] ADMIN INDEX - Session ID: b51b7a586af872102c3c740cfba9681e
+[05-Dec-2025 06:54:21 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 06:54:21 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 06:54:21 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 06:54:27 Asia/Jakarta] ADMIN INDEX - Session ID: 787da4ff4cf90f5b36b2e8fc31613091
+[05-Dec-2025 06:54:27 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 06:54:27 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 06:54:27 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 06:54:32 Asia/Jakarta] ADMIN INDEX - Session ID: be16c1bd33b5191d529a80c2abcc2ed0
+[05-Dec-2025 06:54:32 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 06:54:32 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 06:54:32 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 06:57:57 Asia/Jakarta] PHP Warning:  include(controllers/DataValidationController.php): Failed to open stream: No such file or directory in /var/www/html/drshoezclean/admin/test_api.php on line 10
+[05-Dec-2025 06:57:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'controllers/DataValidationController.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/drshoezclean/admin/test_api.php on line 10
+[05-Dec-2025 06:57:57 Asia/Jakarta] PHP Warning:  include(controllers/DataValidationController.php): Failed to open stream: No such file or directory in /var/www/html/drshoezclean/admin/test_api.php on line 17
+[05-Dec-2025 06:57:57 Asia/Jakarta] PHP Warning:  include(): Failed opening 'controllers/DataValidationController.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/drshoezclean/admin/test_api.php on line 17
+[05-Dec-2025 07:33:05 Asia/Jakarta] ADMIN INDEX - Session ID: fe65692a2d2e370d6e7383205726dec9
+[05-Dec-2025 07:33:05 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 07:33:05 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 07:33:05 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 07:33:09 Asia/Jakarta] ADMIN INDEX - Session ID: 39a1faa1e132a90d320bf5024f7b225a
+[05-Dec-2025 07:33:09 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 07:33:09 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 07:33:09 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 07:33:22 Asia/Jakarta] ADMIN INDEX - Session ID: 8752d78d150b6b0643fa44e584f47721
+[05-Dec-2025 07:33:22 Asia/Jakarta] ADMIN INDEX - User ID: 2
+[05-Dec-2025 07:33:22 Asia/Jakarta] ADMIN INDEX - User Role: superuser
+[05-Dec-2025 07:38:39 Asia/Jakarta] ADMIN INDEX - Session ID: 38f78bea119eff72b1c3ed24a8b1d322
+[05-Dec-2025 07:38:39 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 07:38:39 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 07:38:39 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login
+[05-Dec-2025 07:38:42 Asia/Jakarta] ADMIN INDEX - Session ID: f52d150885d4b0f4784936bcb517df11
+[05-Dec-2025 07:38:42 Asia/Jakarta] ADMIN INDEX - User ID: not set
+[05-Dec-2025 07:38:42 Asia/Jakarta] ADMIN INDEX - User Role: not set
+[05-Dec-2025 07:38:42 Asia/Jakarta] ADMIN INDEX - User not logged in, redirecting to login

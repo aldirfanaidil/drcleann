@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for Dr. ShoezClean */
+.sidebar-header {
+    padding: 1.25rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-logo {
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.5rem;
+    font-weight: bold;
+    color: #7B2C2C;
+}
+
+.service-item {
+    border: 2px dashed #d1d5db;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+    margin-bottom: 0.9375rem;
+    background: #fafafa;
+    transition: all 0.3s;
+}
+
+.service-item:hover {
+    border-color: #7B2C2C;
+    background: white;
+}
+
+.remove-service {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-display {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #7B2C2C;
+}
+
+.service-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 0.9375rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 0.625rem;
+}
+
+.service-card:hover {
+    border-color: #7B2C2C;
+    box-shadow: 0 2px 8px rgba(123, 44, 44, 0.1);
+}
+
+.service-card.selected {
+    border-color: #7B2C2C;
+    background: #fef2f2;
+}
+
+.service-price {
+    font-weight: bold;
+    color: #7B2C2C;
+}
+
+/* Print styles */
+@media print {
+    .sidebar,
+    .no-print {
+        display: none !important;
+    }
+    
+    .md\:ml-64 {
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,45 @@
+services:
+  # Web Service
+  - type: web
+    name: drshoezclean
+    runtime: docker
+    plan: free
+    buildCommand: |
+      # Install dependencies
+      composer install --no-dev --optimize-autoloader
+      npm install
+      npm run build-css
+    startCommand: |
+      # Start PHP built-in server
+      php -S 0.0.0.0:$PORT -t .
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DB_HOST
+        fromDatabase:
+          name: drshoezclean-db
+          property: host
+      - key: DB_PORT
+        fromDatabase:
+          name: drshoezclean-db
+          property: port
+      - key: DB_NAME
+        fromDatabase:
+          name: drshoezclean-db
+          property: database
+      - key: DB_USER
+        fromDatabase:
+          name: drshoezclean-db
+          property: user
+      - key: DB_PASS
+        fromDatabase:
+          name: drshoezclean-db
+          property: password
+
+# Using external TiDB Cloud database
+# Environment variables will be set manually in Render dashboard:
+# DB_HOST=gateway01.ap-southeast-1.prod.aws.tidbcloud.com
+# DB_PORT=4000
+# DB_NAME=DRCLEAN
+# DB_USER=4MQbmjj75JU22dn.root
+# DB_PASS=y5EfIFa7FJcZPq6C
