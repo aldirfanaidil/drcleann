@@ -1,36 +1,41 @@
-FROM php:8.1-apache
+# Gunakan image resmi PHP + Apache
+FROM php:8.2-apache
 
-# Install system dependencies
+# Install dependensi yang dibutuhkan PHP
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
     zip \
     unzip \
-    nodejs \
-    npm \
+    curl \
+    && docker-php-ext-install pdo_mysql mysqli gd \
     && rm -rf /var/lib/apt/lists/*
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo_mysql mysqli gd
-
-# Enable Apache modules
+# Enable Apache mod_rewrite
 RUN a2enmod rewrite
+
+# Install Node.js & npm
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs
 
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy application files
+# Copy semua file project
 COPY . .
 
-# Install Node.js dependencies and build CSS
-RUN npm install && npm run build-css
+# Install Tailwind & PostCSS
+RUN npm install -D tailwindcss postcss autoprefixer
 
-# Set permissions
+# Build CSS menggunakan Tailwind v4
+RUN ./node_modules/.bin/tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css
+
+# Set permission writable untuk logs dan storage
 RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 755 /var/www/html
+    && chmod -R 775 /var/www/html
 
-# Expose port 80
+# Expose port yang dipakai Railway
 EXPOSE 80
 
 # Start Apache
