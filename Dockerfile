@@ -27,7 +27,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
 WORKDIR /var/www/html
 
 # Copy semua file project
-COPY . .
+COPY . /var/www/html/
 
 # Install Node dependencies untuk Tailwind
 RUN npm install
