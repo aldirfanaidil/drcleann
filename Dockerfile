@@ -1,7 +1,7 @@
-# Gunakan image resmi PHP + Apache
-FROM php:8.2-apache
+# Base image PHP + Apache
+FROM php:8.1-apache
 
-# Install dependensi yang dibutuhkan PHP
+# Install dependencies untuk PHP extensions & Node
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libonig-dev \
@@ -9,33 +9,44 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     curl \
-    && docker-php-ext-install pdo_mysql mysqli gd \
+    gnupg \
     && rm -rf /var/lib/apt/lists/*
 
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
+# Install PHP extensions
+RUN docker-php-ext-install mysqli pdo pdo_mysql gd
 
-# Install Node.js & npm
+# Enable Apache rewrite
+RUN a2enmod rewrite
+RUN service apache2 restart
+
+# Install Node.js 18 + npm terbaru (RESMI)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
     && apt-get install -y nodejs
 
-# Set working directory
+# Set WORKDIR
 WORKDIR /var/www/html
 
 # Copy semua file project
 COPY . .
 
-# Install Tailwind & PostCSS
-RUN npm install -D tailwindcss postcss autoprefixer
+# Install Node dependencies untuk Tailwind
+RUN npm install
 
-# Build CSS menggunakan Tailwind v4
-RUN ./node_modules/.bin/tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css
+# Build Tailwind CSS sekali saja (TANPA --watch)
+RUN npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css
 
-# Set permission writable untuk logs dan storage
-RUN chown -R www-data:www-data /var/www/html \
-    && chmod -R 775 /var/www/html
+# Install Composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
-# Expose port yang dipakai Railway
+# Install dependency PHP
+RUN composer install --no-dev --optimize-autoloader || true
+
+# Set Apache DocumentRoot
+ENV APACHE_DOCUMENT_ROOT=/var/www/html
+RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
+RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
+
+# Expose port 80
 EXPOSE 80
 
 # Start Apache
